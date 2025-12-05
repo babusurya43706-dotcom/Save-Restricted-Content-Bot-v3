@@ -46,7 +46,7 @@ PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "5000"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
 JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/PiyushPk01")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/DPiyushPk01")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/PiyushPk01")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
@@ -76,6 +76,7 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
 
