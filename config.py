@@ -20,14 +20,14 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "21834860")
-API_HASH     = os.getenv("API_HASH", "e4acef545ba34ee3fa5c511b38644647")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "8017027472:AAGyYDKa1sku_k_drX3spfn")
+API_ID       = os.getenv("API_ID", "23878955")
+API_HASH     = os.getenv("API_HASH", "07637a6c4c4566dc3923fa29d6c84b67")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
 MONGO_DB     = os.getenv("MONGO_DB", mongodb+srv://divyanshshukla5375_db_user:1kZ2dsVTktdMljpr@cluster0.lo5qk5v.mongodb.net/?appName=Cluster0"")
 DB_NAME      = os.getenv("DB_NAME", "divyanshshukla5375_db_user")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "6334323103").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "5445688589").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", ""))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", ""))
@@ -45,8 +45,8 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "5"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "5000"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/Divyanshshukla7")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Divyanshshukla7")
+JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/PiyushPk01")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/DPiyushPk01")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
@@ -76,6 +76,7 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
 
