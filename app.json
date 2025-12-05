@@ -78,7 +78,7 @@
     },
     "PREMIUM_LIMIT": {
       "description": "Limit for premium users (in MB or desired unit)",
-      "value": "500",
+      "value": "5000",
       "required": false
     },
     "ADMIN_CONTACT": {
@@ -98,3 +98,4 @@
   ],
   "stack": "container"
 }
+
