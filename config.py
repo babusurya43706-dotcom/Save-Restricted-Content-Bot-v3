@@ -30,7 +30,7 @@ DB_NAME      = os.getenv("DB_NAME", "")
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1003274282910"))
-FORCE_SUB    = int(os.getenv("FORCE_SUB", "Team_patel_pro1"))
+FORCE_SUB    = int(os.getenv("FORCE_SUB", "https://t.me/+wcsOGJt4_tE0NDI1"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
 MASTER_KEY   = os.getenv("MASTER_KEY", "q9Jf8VjYwP4zjK2hQk3lT7yB5mX9nR2s8dF1aZ0uVwY=")  # session encryption
@@ -41,8 +41,8 @@ YT_COOKIES   = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
 # ─── USAGE LIMITS ───────────────────────────────────────────────────────────────
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "5"))
-PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "50000"))
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
+PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
 JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/Team_patel_pro")
@@ -76,4 +76,5 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
